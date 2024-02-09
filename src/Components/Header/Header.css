@@ -1,0 +1,40 @@
+.app__header {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #ba9a9c;
+  position: relative;
+  font-size: 110%;
+  font-weight: 600;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.app__header svg {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.app__header svg:hover {
+  width: 4rem;
+  height: 4rem;
+}
+
+.app__header-cover {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
