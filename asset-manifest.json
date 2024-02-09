@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Sound-system-store/static/css/main.dcaebfcb.css",
+    "main.js": "/Sound-system-store/static/js/main.aeea6119.js",
+    "static/media/mainimg.jpg": "/Sound-system-store/static/media/mainimg.f81963a757fd0ca13903.jpg",
+    "static/media/photo.jpg.webp": "/Sound-system-store/static/media/photo.jpg.7c4facd88f250ca924e9.webp",
+    "static/media/audio.jpg.webp": "/Sound-system-store/static/media/audio.jpg.ef86da3b5d04ab4cf64b.webp",
+    "static/media/video.jpg.webp": "/Sound-system-store/static/media/video.jpg.3d35241d0e218beae834.webp",
+    "static/media/small_console-hover.jpg.webp": "/Sound-system-store/static/media/small_console-hover.jpg.cbc0524f984c3591c46b.webp",
+    "static/media/small_console.jpg.webp": "/Sound-system-store/static/media/small_console.jpg.59ed0532b8c4c8c556df.webp",
+    "static/media/video-hover.jpg.webp": "/Sound-system-store/static/media/video-hover.jpg.5b7f863ad6bc6f1c84a4.webp",
+    "static/media/photo-hover.jpg.webp": "/Sound-system-store/static/media/photo-hover.jpg.702786f951c40c8b73af.webp",
+    "static/media/audio-hover.jpg.webp": "/Sound-system-store/static/media/audio-hover.jpg.01b65b76e9fd953c8f64.webp",
+    "index.html": "/Sound-system-store/index.html",
+    "main.dcaebfcb.css.map": "/Sound-system-store/static/css/main.dcaebfcb.css.map",
+    "main.aeea6119.js.map": "/Sound-system-store/static/js/main.aeea6119.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcaebfcb.css",
+    "static/js/main.aeea6119.js"
+  ]
+}
