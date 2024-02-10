@@ -4,6 +4,9 @@ import { CartContext } from "../../items/Cart/CartContext";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
+  const [subtotal, setSubtotal] = useState(0);
+
   const { cartItems, addItemToCart, removeItemFromCart } =
     useContext(CartContext);
 
@@ -14,9 +17,6 @@ const Navbar = () => {
   const openHandler = () => {
     setIsActive(true);
   };
-
-  const [isActive, setIsActive] = useState(false);
-  const [subtotal, setSubtotal] = useState(0);
 
   useEffect(() => {
     // Calculate the subtotal
@@ -53,7 +53,9 @@ const Navbar = () => {
         </div>
         <div className="Cart-mid">
           {cartItems.length === 0 ? (
-            <h2>Nothing in your bag</h2>
+            <div className="empty">
+              <h2>Nothing in your bag</h2>
+            </div>
           ) : (
             <ul className="cart__items">
               {cartItems.map((item) => (
