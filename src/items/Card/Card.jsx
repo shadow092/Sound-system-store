@@ -16,7 +16,7 @@ const Card = (props) => {
       >
         <img
           src={isHovered ? props.image2 : props.image1}
-          alt="product image"
+          alt="product"
           style={{ transition: "opacity 0.3s ease" }}
         />
         <span>pre-order</span>
