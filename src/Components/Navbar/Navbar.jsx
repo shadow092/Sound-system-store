@@ -110,24 +110,24 @@ const Navbar = () => {
         <div className="app__navbar-links">
           <ul>
             <li>
-              <a href="">How it works</a>
+              <a href="/">How it works</a>
             </li>
             <li>
-              <a className="triangle-link" href="">
+              <a className="triangle-link" href="/">
                 workflows
               </a>
             </li>
             <li>
-              <a href="">download</a>
+              <a href="/">download</a>
             </li>
             <li>
-              <a href="">blog</a>
+              <a href="/">blog</a>
             </li>
             <li>
-              <a href="">support</a>
+              <a href="/">support</a>
             </li>
             <li>
-              <a href="">shop</a>
+              <a href="/">shop</a>
             </li>
             <li>
               <button onClick={openHandler}>
