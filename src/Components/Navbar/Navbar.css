@@ -205,7 +205,7 @@ h2 {
 }
 
 .quantity {
-  border: 0.1rem black solid;
+  border: 0.15rem #1a2456 solid;
   padding: 0 0.2rem 0 0.2rem;
   display: inline-block;
 }
